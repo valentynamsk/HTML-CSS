@@ -1,34 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-        <title>About me</title>
-    </head>
-    <body>
-        <div id="main-container">
-            <h1>Hello!</h1>
-            <h2>My name is Valentyna</h2>
-            <p>I'm a Junior QA Engineer</p>
-            <img id="my-photo" src="./images/my_photo.jpeg" alt="My photo" width="200">
+    <title>About me</title>
+  </head>
+  <body>
+    <div class="first-container">
+      <h1>Hello!</h1>
+      <h2>My name is Valentyna</h2>
+      <p>I'm a Junior QA Engineer</p>
+      <img id="my-photo" src="./images/my_photo.jpeg" alt="My photo"
+        width="200">
 
-            <p>
-                <a href="./pages/contacts.html" class="back-btn">Go to my contacts</a>
-                <a href="./pages/galery.html" class="back-btn">Go to my gallery</a>
-            </p>
-            <h2>About me</h2>
-            
-     
-            <p id="about-me">
-                I’m a motivated Junior QA Engineer with a strong attention to detail and a passion for improving software quality.
-                I have experience working with testing tools, creating test cases, and reporting bugs.
-                I enjoy learning new technologies and continuously developing my skills to become a better professional.
-            </p>
-        </div>
-            
-    </body>
+      <p>
+        <a href="./pages/contacts.html" class="back-btn">Go to my contacts</a>
+        <a href="./pages/galery.html" class="back-btn">Go to my gallery</a>
+      </p>
+      <h2>About me</h2>
 
-    
+      <p class="about-me">
+        I’m a motivated Junior QA Engineer with a strong attention to detail and
+        a passion for improving software quality.
+        I have experience working with testing tools, creating test cases, and
+        reporting bugs.
+        I enjoy learning new technologies and continuously developing my skills
+        to become a better professional.
+      </p>
+    </div>
+    <div class="waves">
+      <svg width="100%" height="100%" viewBox="0 255 1440 280"
+        xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <defs>
+          <lineargradient id="gradient" x1="10%" y1="50%" x2="100%" y2="50%">
+            <stop offset="5%" stop-color="#F78DA7" />
+            <stop offset="95%" stop-color="#8ED1FC" />
+          </lineargradient>
+        </defs>
+        <path fill="url(#gradient)" fill-opacity="0.6">
+          <animate attributeName="d" dur="8s" repeatCount="indefinite"
+            values="M0,600L0,300C200,280,400,320,600,300C800,280,1000,240,1200,260C1400,280,1440,300,1440,300L1440,600L0,600Z;
+                M0,600L0,320C200,340,400,280,600,320C800,360,1000,300,1200,320C1400,340,1440,360,1440,360L1440,600L0,600Z;
+                M0,600L0,300C200,280,400,320,600,300C800,280,1000,240,1200,260C1400,280,1440,300,1440,300L1440,600L0,600Z" />
+        </path>
+      </svg>
+    </div>
+
+  </body>
 
 </html>

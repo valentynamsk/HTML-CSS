@@ -1,6 +1,7 @@
 body {
     background-color: #fc989844;
     font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -19,24 +20,27 @@ h1 {
     background-color: #216ed39d;
     padding: 20px;
     display: inline-block;
+    border-radius: 10px
     
 }
 
 
 .label {
     font-weight: bold;
+    color: #3253e7c4;
 }
 
 
-#main-container {
+#title-container {
     text-align: center;
     max-width: 800px;
     margin: 0 auto;    
 }
 
-#about-me {
-    line-height: 3;
+.about-me {
+    line-height: 5;
     font-style: oblique;
+    padding: 0 300px;
 }
 
 
@@ -66,5 +70,87 @@ h1 {
     border: 5px solid pink; 
     border-radius: 10px;
     padding: 5px;
-    margin: 10px;
+    margin: px;
 }
+
+.waves {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.back-btn-wrapper {
+    position: absolute;
+    bottom: 300px;                
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.first-container {
+ text-align: center;
+      
+}
+
+.main-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    height: 200px;
+}
+
+
+    .social {
+  display: inline-flex;                              /* горизонтально размещаем иконку и текст */
+  align-items: center;                               /* вертикально центрируем */
+  gap: 10px;                                         /* расстояние между иконкой и текстом */
+  padding: 10px 16px;                                /* внутренние отступы */
+  border: 2px solid transparent;                     /* прозрачная рамка по умолчанию */
+  border-radius: 12px;                               /* скругленные углы */
+  background:
+    linear-gradient(#fff, #fff) padding-box,         /* белый фон внутри */
+    linear-gradient(135deg, #F78DA7, #8ED1FC) border-box; /* градиентная рамка */
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease; /* плавная анимация при наведении */
+}
+
+.social:hover {
+  transform: scale(1.05);                            /* лёгкое увеличение всего блока */
+  box-shadow: 0 8px 20px rgba(142, 209, 252, 0.3);  /* мягкая тень для «парящего» эффекта */
+}
+
+.social .label {
+  font-weight: 600;                                  /* полужирная метка */
+  color: #444;
+}
+
+.social a {
+  display: inline-flex;
+  align-items: center;
+  color: #F78DA7;
+  text-decoration: none;
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.social a img {
+  width: 20px;                                       /* размер иконки */
+  height: 20px;
+  margin-right: 6px;                                 /* отступ между иконкой и текстом */
+  transition: transform 0.25s ease;                 /* плавное движение иконки */
+}
+
+.social a:hover {
+  color: #8ED1FC;                                   /* цвет текста при наведении */
+}
+
+.social a:hover img {
+  transform: translateY(-3px);                      /* «подпрыгивание» иконки */
+}
+
+
+
