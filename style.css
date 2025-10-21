@@ -1,0 +1,70 @@
+body {
+    background-color: #fc989844;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+
+#container-back {
+    text-align: right;
+
+}
+
+
+#contacts-title {
+    color: rgb(255, 255, 255);
+    background-color: #216ed39d;
+    padding: 20px;
+    display: inline-block;
+    
+}
+
+
+.label {
+    font-weight: bold;
+}
+
+
+#main-container {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;    
+}
+
+#about-me {
+    line-height: 3;
+    font-style: oblique;
+}
+
+
+.back-btn {
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: pink;
+    color: white;
+    text-decoration: none; 
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+    margin: 10px;
+}
+
+.back-btn:hover {
+    background-color: hotpink;
+}
+
+#my-photo {
+    border: 5px solid pink; 
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.gallery-photo {
+    border: 5px solid pink; 
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
