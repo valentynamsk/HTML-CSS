@@ -91,9 +91,14 @@ h1 {
 }
 
 .first-container {
- text-align: center;
-      
+ text-align: center; 
 }
+
+
+#first-container {
+    text-align: center;
+}
+
 
 .main-container {
     align-items: center;
@@ -105,27 +110,27 @@ h1 {
 
 
     .social {
-  display: inline-flex;                              /* горизонтально размещаем иконку и текст */
-  align-items: center;                               /* вертикально центрируем */
-  gap: 10px;                                         /* расстояние между иконкой и текстом */
-  padding: 10px 16px;                                /* внутренние отступы */
-  border: 2px solid transparent;                     /* прозрачная рамка по умолчанию */
-  border-radius: 12px;                               /* скругленные углы */
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;  
+  padding: 10px 16px; 
+  border: 2px solid transparent; 
+  border-radius: 12px;                      
   background:
-    linear-gradient(#fff, #fff) padding-box,         /* белый фон внутри */
-    linear-gradient(135deg, #F78DA7, #8ED1FC) border-box; /* градиентная рамка */
+    linear-gradient(#fff, #fff) padding-box, 
+    linear-gradient(135deg, #F78DA7, #8ED1FC) border-box;
   font-family: 'Segoe UI', sans-serif;
   font-size: 16px;
-  transition: transform 0.25s ease, box-shadow 0.25s ease; /* плавная анимация при наведении */
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .social:hover {
-  transform: scale(1.05);                            /* лёгкое увеличение всего блока */
-  box-shadow: 0 8px 20px rgba(142, 209, 252, 0.3);  /* мягкая тень для «парящего» эффекта */
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(142, 209, 252, 0.3);
 }
 
 .social .label {
-  font-weight: 600;                                  /* полужирная метка */
+  font-weight: 600;
   color: #444;
 }
 
@@ -138,18 +143,18 @@ h1 {
 }
 
 .social a img {
-  width: 20px;                                       /* размер иконки */
+  width: 20px;
   height: 20px;
-  margin-right: 6px;                                 /* отступ между иконкой и текстом */
-  transition: transform 0.25s ease;                 /* плавное движение иконки */
+  margin-right: 6px;
+  transition: transform 0.25s ease;
 }
 
 .social a:hover {
-  color: #8ED1FC;                                   /* цвет текста при наведении */
+  color: #8ED1FC;
 }
 
 .social a:hover img {
-  transform: translateY(-3px);                      /* «подпрыгивание» иконки */
+  transform: translateY(-3px);
 }
 
 
